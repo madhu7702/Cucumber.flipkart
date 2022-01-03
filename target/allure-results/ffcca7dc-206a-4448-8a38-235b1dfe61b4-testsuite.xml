@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1640931139313" stop="1640931176996" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Login to Flipkart</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1640931139355" stop="1640931176989" status="passed">
+            <name>Observe the product screen</name>
+            <title>Observe the product screen</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1640931145252" stop="1640931151383" status="passed">
+                    <name>Given Go to URL "https://www.Flipkart.com"</name>
+                    <title>Given Go to URL "https://www.Flipkart.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1640931151383" stop="1640931153507" status="passed">
+                    <name>When Sign in with "madhutappeta210@gmail.com" and "madhu123"</name>
+                    <title>When Sign in with "madhutappeta210@gmail.com" and "madhu123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1640931153507" stop="1640931157148" status="passed">
+                    <name>Then user able to logged in successfully</name>
+                    <title>Then user able to logged in successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1640931157149" stop="1640931167596" status="passed">
+                    <name>Then Observe the cursor on Electronics highlighted</name>
+                    <title>Then Observe the cursor on Electronics highlighted</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1640931167596" stop="1640931167596" status="passed">
+                    <name>When Move the mouse on Search bar</name>
+                    <title>When Move the mouse on Search bar</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1640931167597" stop="1640931172122" status="passed">
+                    <name>And Type any product on search bar "Samsung Mobile"</name>
+                    <title>And Type any product on search bar "Samsung Mobile"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1640931172123" stop="1640931175555" status="passed">
+                    <name>Then Check the search result page with product given</name>
+                    <title>Then Check the search result page with product given</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="959ecba7-6992-4af2-969b-4a7c3721471b-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Observe the product screen"/>
+                <label name="feature" value="Login to Flipkart"/>
+                <label name="host" value="Madhu"/>
+                <label name="thread" value="2360@Madhu.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Login to Flipkart"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

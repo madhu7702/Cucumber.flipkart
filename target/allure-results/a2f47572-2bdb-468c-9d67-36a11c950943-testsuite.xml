@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1640930324678" stop="1640930472062" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Login to Flipkart</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1640930325123" stop="1640930472050" status="broken">
+            <name>verify output when provide wflipkart.featurerong url</name>
+            <title>verify output when provide wflipkart.featurerong url</title>
+            <description type="text"></description>
+            <failure>
+                <message>WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'MADHU', ip: '192.168.43.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\msred\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49612}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a0d7b0c1bf8ebd1ac8fc3b39a7bde9b</message>
+                <stack-trace>org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'MADHU', ip: '192.168.43.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\msred\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49612}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a0d7b0c1bf8ebd1ac8fc3b39a7bde9b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
+	at com.cucumberFramework.stepdefinitions.Steps.go_to_URL(Steps.java:25)
+	at ✽.Given Go to URL "https://www.Flipkart.in"(src/test/resources/features/login/flipkart.feature:23)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1640930375614" stop="1640930465457" status="broken">
+                    <name>Given Go to URL "https://www.Flipkart.in"</name>
+                    <title>Given Go to URL "https://www.Flipkart.in"</title>
+                </step>
+                <step start="1640930465459" stop="1640930465464" status="canceled">
+                    <name>Then verify page error</name>
+                    <title>Then verify page error</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="0ec9f6bf-0e55-482e-bde6-ff911c51823b-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="verify output when provide wflipkart.featurerong url"/>
+                <label name="feature" value="Login to Flipkart"/>
+                <label name="host" value="Madhu"/>
+                <label name="thread" value="12176@Madhu.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Login to Flipkart"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

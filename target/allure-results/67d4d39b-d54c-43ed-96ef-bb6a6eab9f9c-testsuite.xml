@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1640930540552" stop="1640930615954" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Login to Flipkart</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1640930540677" stop="1640930615942" status="broken">
+            <name>Observe the product screen</name>
+            <title>Observe the product screen</title>
+            <description type="text"></description>
+            <failure>
+                <message>NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Electronics GST Store']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'MADHU', ip: '192.168.43.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\msred\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61256}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 731d9e640229cde0d5189f845c98b390
+*** Element info: {Using=xpath, value=//a[text()='Electronics GST Store']}</message>
+                <stack-trace>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Electronics GST Store']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'MADHU', ip: '192.168.43.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\msred\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61256}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 731d9e640229cde0d5189f845c98b390
+*** Element info: {Using=xpath, value=//a[text()='Electronics GST Store']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy20.isDisplayed(Unknown Source)
+	at com.cucumberFramework.pageObjects.HomePage.verifyElectronicsHighlighted(HomePage.java:60)
+	at com.cucumberFramework.stepdefinitions.Steps.Observe_the_cursor_on_Electronics_highlighted(Steps.java:54)
+	at ✽.Then Observe the cursor on Electronics highlighted(src/test/resources/features/login/flipkart.feature:10)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1640930553739" stop="1640930572662" status="passed">
+                    <name>Given Go to URL "https://www.Flipkart.com"</name>
+                    <title>Given Go to URL "https://www.Flipkart.com"</title>
+                </step>
+                <step start="1640930572664" stop="1640930578577" status="passed">
+                    <name>When Sign in with "madhutappeta210@gmail.com" and "madhu123"</name>
+                    <title>When Sign in with "madhutappeta210@gmail.com" and "madhu123"</title>
+                </step>
+                <step start="1640930578578" stop="1640930583734" status="passed">
+                    <name>Then user able to logged in successfully</name>
+                    <title>Then user able to logged in successfully</title>
+                </step>
+                <step start="1640930583735" stop="1640930613532" status="broken">
+                    <name>Then Observe the cursor on Electronics highlighted</name>
+                    <title>Then Observe the cursor on Electronics highlighted</title>
+                </step>
+                <step start="1640930613532" stop="1640930613537" status="canceled">
+                    <name>When Move the mouse on Search bar</name>
+                    <title>When Move the mouse on Search bar</title>
+                </step>
+                <step start="1640930613538" stop="1640930613538" status="canceled">
+                    <name>And Type any product on search bar "Samsung Mobile"</name>
+                    <title>And Type any product on search bar "Samsung Mobile"</title>
+                </step>
+                <step start="1640930613538" stop="1640930613538" status="canceled">
+                    <name>Then Check the search result page with product given</name>
+                    <title>Then Check the search result page with product given</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="04454e86-3109-4620-87de-1549604cebc0-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Observe the product screen"/>
+                <label name="feature" value="Login to Flipkart"/>
+                <label name="host" value="Madhu"/>
+                <label name="thread" value="1304@Madhu.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Login to Flipkart"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
